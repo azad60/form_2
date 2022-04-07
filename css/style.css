@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main_area{
+width: 100%;
+background: #E9EBEC;
+padding: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.left_area{
+width: 50%;
+background: #7267D5;
+padding: 40px;
+border-radius: 10px 0px 0px 10px;
+box-shadow: 3px 3px 5px 5px #c8c8c8;
+}
+.left_area h1{
+  
+  color: #fff;text-transform: capitalize;font-size: 39px;margin-bottom: 25px;}
+/* icon area design  */
+.left_area button{
+width: 100%;
+display: flex;
+margin: 10px 0;
+border: none;
+font-size: 16px;
+color: #fff;
+background: transparent;
+}
+.left_area button span{
+
+}
+.left_area button h3{
+  text-align: start;
+}
+.icon_1{
+  background: #364F89;
+  padding: 15px 17px;
+font-size: 16px;}
+.icon_2{
+  background: #4C9BD7;
+  padding: 15px;
+}
+.icon_3{
+  background: #C84735;
+  padding: 15px;
+}
+.icon_4{
+  background: #0192C3;
+  padding: 15px;
+}
+.heding_1{
+  background: #3B5998;
+  padding: 13px;
+  width: 100%;
+}
+.heding_2{
+  background: #53AAEC;
+  padding: 13px;
+  width: 100%;
+}
+.heding_3{
+  background: #DF4E3A;
+  padding: 13px;
+  width: 100%;
+}
+.heding_4{
+  background: #00A1DA;
+  padding: 13px;
+  width: 100%;
+}
+/* icon area design  */
+
+.right_area{
+  width: 50%;
+  padding: 40px;
+  background: #FFFFFF;
+  border-radius: 0px 10px 10px 0px;
+  box-shadow: 3px 3px 5px 5px #c8c8c8;
+
+}
+.right_area h2{
+color: #707070;
+font-size: 25px;
+margin: 15px 0;
+text-transform: capitalize;
+}
+.right_area div{
+  position: relative;
+
+overflow: hidden;
+}
+.right_area input{
+  padding: 10px;
+  width: 100%;
+  margin: 10px 0;
+  font-size: 16px;
+  border: 1px solid;
+}
+.right_area input:focus{
+  outline: none;
+  border-bottom: 2px solid #DF4E3A;
+}
+.right_area input::placeholder{
+  font-size: 16px;
+  color: #C8C8C8;
+}
+.right_area div i {
+  color: #C8C8C8;
+  position: absolute;
+  top: 36%;
+  right: 5%;
+  transform: translate(-50%,5%);
+}
+.right_area button{
+  padding: 13px;
+  width: 100%;
+  margin: 10px 0;
+  font-size: 16px;
+  background: #7267D5;
+  border: none;
+  text-align: center;
+  text-transform: capitalize;
+  color: #fff;
+}
